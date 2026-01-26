@@ -1,0 +1,42 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.env
+
+# Build artifacts
+build/
+dist/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+
+# Rust build output
+target/
+
+# Dora runtime outputs and logs
+**/out/
+**/dataflow-graph.html
+*.log
+
+# Hand-eye calibration data outputs
+dora_ws/hand_eye_calibration-main/eye_hand_data/
+dora_ws/hand_eye_calibration-main/RobotToolPose.csv
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
