@@ -1,0 +1,63 @@
+Metadata-Version: 2.4
+Name: cc_dora_event_loop
+Version: 1.0.0
+Summary: CC Dora-rs Event Loop Framework
+Home-page: https://github.com/example/cc_dora_event_loop
+Author: Claude
+Author-email: claude@example.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: dora-rs
+Requires-Dist: pyarrow
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# CC Dora-rs Event Loop Framework
+
+A Python event loop framework for Dora-rs, simplifying node event handling.
+
+## Features
+
+- Event system for registering and triggering event handlers
+- Input handler mapping for different input IDs
+- Timer support with periodic and one-time timers
+- Event loop encapsulation
+
+## Installation
+
+```bash
+pip install -e .
+```
+
+## Usage
+
+```python
+from cc_dora_event_loop import EventLoop, InputEvent
+
+# Create event loop
+event_loop = EventLoop("my_node")
+
+# Register input handler
+event_loop.register_input_handler("some_input", lambda event: print(f"Received: {event.data}"))
+
+# Register timer
+event_loop.register_timer("heartbeat", 5.0, lambda: print("Heartbeat"))
+
+# Run event loop
+event_loop.run()
+```

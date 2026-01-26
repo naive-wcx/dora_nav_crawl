@@ -1,0 +1,15 @@
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+[2m2026-01-26T09:18:48.579246Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019bf999-3b0e-766f-b661-d42028a7dc4d) was still not dropped after 1s -> ignoring it
+[2m2026-01-26T09:18:48.679356Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019bf999-3b78-7071-93b8-fd48e66cfbce) was still not dropped after 1s -> ignoring it
+[2m2026-01-26T09:18:50.680570Z[0m [33m WARN[0m [2mdora_node_api::node[0m[2m:[0m timeout while waiting for drop tokens; closing 1 shared memory regions that might not yet been mapped.

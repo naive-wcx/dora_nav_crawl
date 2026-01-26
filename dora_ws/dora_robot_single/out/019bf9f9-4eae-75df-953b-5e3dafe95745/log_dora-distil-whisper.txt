@@ -1,0 +1,5 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+Device set to use cuda:0
+`return_token_timestamps` is deprecated for WhisperFeatureExtractor and will be removed in Transformers v5. Use `return_attention_mask` instead, as the number of frames can be inferred from it.
+You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset

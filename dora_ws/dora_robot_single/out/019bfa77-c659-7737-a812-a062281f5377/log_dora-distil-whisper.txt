@@ -1,0 +1,11 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+Device set to use cuda:0
+`return_token_timestamps` is deprecated for WhisperFeatureExtractor and will be removed in Transformers v5. Use `return_attention_mask` instead, as the number of frames can be inferred from it.
+[INFO] 使用本地缓存模型: /home/dora/.cache/huggingface/hub/models--openai--whisper-large-v3-turbo/snapshots/41f01f3fe87f28c78e2fbf8b568835947dd65ed9
+[INFO] 幫我抓一下
+[INFO] 幫我抓一瓶可樂
+[INFO] 不认识你发动怎么回事
+[INFO] 幫我摘一隻殼
+[INFO] 嗯嗯嗯嗯
+[2m2026-01-26T13:22:38.609687Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019bfa78-65ad-7a2a-9d30-439a0ab945f2) was still not dropped after 1s -> ignoring it

@@ -1,0 +1,8 @@
+words:  ['抓一条']
+sending: 抓一条
+words:  ['可惡抓你']
+sending: 可惡抓你
+words:  ['我了我了我了']
+Success
+已经退出！！！！！！！！！！
+words:  ['三個三個']

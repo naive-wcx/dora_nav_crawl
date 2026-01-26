@@ -1,0 +1,144 @@
+初始化节点
+初始化机械臂
+current c api version:  1.1.0
+[rm_get_arm_software_info] get_arm_software_info revice error
+[rm_create_robot_arm] get robot info err!
+[rm_set_arm_run_mode] set_arm_run_mode revice error
+[rm_set_tool_voltage] set_tool_voltage revice error
+[rm_set_modbus_mode] set_modbus_mode revice error
+[rm_write_single_register] write_single_register revice error
+[rm_get_current_arm_state] get_current_arm_state revice error
+获取机械臂状态失败，错误码: -2
+初始化完成，等待指令...
+收到事件: INPUT - pose_r
+处理pose_r事件
+编码类型: jointstate
+机械臂: right, 持续时间: 1.0
+关节状态数据: [[ 157.47799683  -73.1780014    66.67299652   57.86199951   94.26499939
+  -171.82299805  100.        ]]
+关节角度: [157.47799682617188, -73.1780014038086, 66.6729965209961, 57.86199951171875, 94.26499938964844, -171.822998046875]
+夹爪值: 100.0
+执行关节运动...
+[rm_movej] The robotic arm has been disconnected
+关节运动结果: -1
+设置夹爪...
+夹爪设置结果: -2
+[rm_write_single_register] write_single_register revice error
+发送响应: False
+服务器已关闭!
+收到事件: INPUT - pose_r
+处理pose_r事件
+编码类型: xyzrpy
+机械臂: right, 持续时间: 0.5
+Processing row 1/1
+收到目标物体位姿（workframe）：[-0.12444446166913717, 0.018368525543925276, 0.44580402218783055, 0.0, 0.0, 0.0]
+send is: {"command":"get_current_arm_state"}
+ send err: -2
+[rm_get_current_arm_state] get_current_arm_state send error
+获取机械臂状态失败，错误码: -1
+收到事件: INPUT - pose_r
+处理pose_r事件
+编码类型: jointstate
+机械臂: right, 持续时间: 0.75
+关节状态数据: [[ 157.47799683  -73.1780014    66.67299652   57.86199951   94.26499939
+[rm_movej] The robotic arm has been disconnected
+  -171.82299805  100.        ]]
+send is: {"command":"write_single_register","port":1,"address":40000,"data":100,"device":1}
+关节角度: [157.47799682617188, -73.1780014038086, 66.6729965209961, 57.86199951171875, 94.26499938964844, -171.822998046875]
+ send err: -2
+夹爪值: 100.0
+[rm_write_single_register] write_single_register send error
+执行关节运动...
+关节运动结果: -1
+设置夹爪...
+夹爪设置结果: -1
+发送响应: False
+收到事件: INPUT - pose_r
+处理pose_r事件
+[rm_movej] The robotic arm has been disconnected
+send is: {"command":"write_single_register","port":1,"address":40000,"data":100,"device":1}
+ send err: -2
+[rm_write_single_register] write_single_register send error
+编码类型: jointstate
+机械臂: right, 持续时间: 1.0
+关节状态数据: [[ 157.47799683  -73.1780014    66.67299652   57.86199951   94.26499939
+  -171.82299805  100.        ]]
+关节角度: [157.47799682617188, -73.1780014038086, 66.6729965209961, 57.86199951171875, 94.26499938964844, -171.822998046875]
+夹爪值: 100.0
+执行关节运动...
+关节运动结果: -1
+设置夹爪...
+夹爪设置结果: -1
+发送响应: False
+收到事件: INPUT - pose_r
+处理pose_r事件
+编码类型: xyzrpy
+机械臂: right, 持续时间: 0.5
+Processing row 1/1
+收到目标物体位姿（workframe）：[-0.12389939758151966, 0.018369815212629648, 0.44585124387316655, 0.0, 0.0, 0.0]
+send is: {"command":"get_current_arm_state"}
+ send err: -2
+[rm_get_current_arm_state] get_current_arm_state send error
+获取机械臂状态失败，错误码: -1
+收到事件: INPUT - pose_r
+处理pose_r事件
+[rm_movej] The robotic arm has been disconnected
+编码类型: jointstate
+send is: {"command":"write_single_register","port":1,"address":40000,"data":100,"device":1}
+机械臂: right, 持续时间: 0.75
+ send err: -2
+关节状态数据: [[ 157.47799683  -73.1780014    66.67299652   57.86199951   94.26499939
+[rm_write_single_register] write_single_register send error
+  -171.82299805  100.        ]]
+关节角度: [157.47799682617188, -73.1780014038086, 66.6729965209961, 57.86199951171875, 94.26499938964844, -171.822998046875]
+夹爪值: 100.0
+执行关节运动...
+关节运动结果: -1
+设置夹爪...
+夹爪设置结果: -1
+发送响应: False
+收到事件: INPUT - pose_r
+处理pose_r事件
+编码类型: jointstate
+机械臂: right, 持续时间: 1.0
+关节状态数据: [[ 157.47799683  -73.1780014    66.67299652   57.86199951   94.26499939
+  -171.82299805  100.        ]]
+关节角度: [157.47799682617188, -73.1780014038086, 66.6729965209961, 57.86199951171875, 94.26499938964844, -171.822998046875]
+夹爪值: 100.0
+执行关节运动...
+[rm_movej] The robotic arm has been disconnected
+关节运动结果: -1
+设置夹爪...
+send is: {"command":"write_single_register","port":1,"address":40000,"data":100,"device":1}
+夹爪设置结果: -1
+ send err: -2
+[rm_write_single_register] write_single_register send error
+发送响应: False
+收到事件: INPUT - pose_r
+处理pose_r事件
+编码类型: xyzrpy
+机械臂: right, 持续时间: 0.5
+Processing row 1/1
+收到目标物体位姿（workframe）：[-0.12443927853156447, 0.015633030655733016, 0.4458189040740117, 0.0, 0.0, 0.0]
+send is: {"command":"get_current_arm_state"}
+ send err: -2
+[rm_get_current_arm_state] get_current_arm_state send error
+获取机械臂状态失败，错误码: -1
+收到事件: INPUT - pose_r
+处理pose_r事件
+[rm_movej] The robotic arm has been disconnected
+编码类型: jointstate
+send is: {"command":"write_single_register","port":1,"address":40000,"data":100,"device":1}
+机械臂: right, 持续时间: 0.75
+ send err: -2
+关节状态数据: [[ 157.47799683  -73.1780014    66.67299652   57.86199951   94.26499939
+[rm_write_single_register] write_single_register send error
+  -171.82299805  100.        ]]
+关节角度: [157.47799682617188, -73.1780014038086, 66.6729965209961, 57.86199951171875, 94.26499938964844, -171.822998046875]
+夹爪值: 100.0
+执行关节运动...
+关节运动结果: -1
+设置夹爪...
+夹爪设置结果: -1
+发送响应: False
+收到事件: STOP - unknown

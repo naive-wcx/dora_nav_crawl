@@ -1,0 +1,27 @@
+2025-12-12 15:00:04 - __main__ - INFO: 读 eye_hand_data/data2025091201/1.jpg
+2025-12-12 15:00:04 - __main__ - INFO: 读 eye_hand_data/data2025091201/2.jpg
+2025-12-12 15:00:04 - __main__ - INFO: 读 eye_hand_data/data2025091201/3.jpg
+2025-12-12 15:00:04 - __main__ - INFO: 读 eye_hand_data/data2025091201/4.jpg
+2025-12-12 15:00:04 - __main__ - INFO: 读 eye_hand_data/data2025091201/5.jpg
+2025-12-12 15:00:04 - __main__ - INFO: 读 eye_hand_data/data2025091201/6.jpg
+2025-12-12 15:00:04 - __main__ - INFO: 读 eye_hand_data/data2025091201/7.jpg
+2025-12-12 15:00:04 - __main__ - INFO: 读 eye_hand_data/data2025091201/8.jpg
+2025-12-12 15:00:04 - __main__ - INFO: 读 eye_hand_data/data2025091201/9.jpg
+2025-12-12 15:00:04 - __main__ - INFO: 读 eye_hand_data/data2025091201/10.jpg
+2025-12-12 15:00:04 - __main__ - INFO: 读 eye_hand_data/data2025091201/11.jpg
+2025-12-12 15:00:04 - __main__ - INFO: 读 eye_hand_data/data2025091201/12.jpg
+2025-12-12 15:00:04 - __main__ - INFO: 读 eye_hand_data/data2025091201/13.jpg
+2025-12-12 15:00:04 - __main__ - INFO: 读 eye_hand_data/data2025091201/14.jpg
+2025-12-12 15:00:04 - __main__ - INFO: 读 eye_hand_data/data2025091201/15.jpg
+2025-12-12 15:00:04 - __main__ - INFO: 读 eye_hand_data/data2025091201/16.jpg
+2025-12-12 15:00:04 - __main__ - INFO: 读 eye_hand_data/data2025091201/17.jpg
+2025-12-12 15:00:04 - __main__ - INFO: 旋转矩阵是:
+ [[ 0.99626541 -0.00189474 -0.08632295]
+ [ 0.00235725  0.99998341  0.00525635]
+ [ 0.08631156 -0.0054402   0.99625334]]
+2025-12-12 15:00:04 - __main__ - INFO: 平移向量是:
+ [[-0.18137702]
+ [-0.97354842]
+ [-1.51946556]]
+2025-12-12 15:00:04 - __main__ - INFO: 四元数是：
+ [-0.00267665 -0.04319913  0.001064    0.99906233]

@@ -1,0 +1,32 @@
+2026-01-26 17:10:58,456 [INFO]: Rerun可视化节点启动 [main.py:390]  [run]
+[2026-01-26T09:10:58Z INFO  re_grpc_server] Listening for gRPC connections on 0.0.0.0:9876. Connect by running `rerun --connect rerun+http://127.0.0.1:9876/proxy`
+[2026-01-26T09:10:58Z INFO  winit::platform_impl::linux::x11::window] Guessed window scale factor: 1
+2026-01-26 17:10:58,618 [INFO]: [Rerun] 可视化线程已启动 [main.py:300]  [_rerun_update_thread]
+[2026-01-26T09:10:58Z WARN  wgpu_hal::vulkan::instance] Unable to find extension: VK_EXT_physical_device_drm
+[2026-01-26T09:10:58Z WARN  wgpu_hal::gles::adapter] Detected skylake derivative running on mesa i915. Clears to srgb textures will use manual shader clears.
+[2026-01-26T09:10:58Z WARN  wgpu_hal::gles::adapter] Detected skylake derivative running on mesa i915. Clears to srgb textures will use manual shader clears.
+[2026-01-26T09:10:58Z INFO  egui_wgpu] There were 4 available wgpu adapters: {backend: Vulkan, device_type: IntegratedGpu, name: "Intel(R) Graphics (ARL)", driver: "Intel open-source Mesa driver", driver_info: "Mesa 25.0.7-0ubuntu0.24.04.2", vendor: Intel (0x8086), device: 0x7D67}, {backend: Vulkan, device_type: DiscreteGpu, name: "NVIDIA GeForce RTX 5090 Laptop GPU", driver: "NVIDIA", driver_info: "570.195.03", vendor: NVIDIA (0x10DE), device: 0x2C58}, {backend: Vulkan, device_type: Cpu, name: "llvmpipe (LLVM 20.1.2, 256 bits)", driver: "llvmpipe", driver_info: "Mesa 25.0.7-0ubuntu0.24.04.2 (LLVM 20.1.2)", vendor: Mesa (0x10005)}, {backend: Gl, device_type: IntegratedGpu, name: "Mesa Intel(R) Graphics (ARL)", driver_info: "4.6 (Core Profile) Mesa 25.0.7-0ubuntu0.24.04.2", vendor: Intel (0x8086)}
+2026-01-26 17:11:04,055 [INFO]: [Visualization Node] 节点初始化成功 / Node initialized successfully [event_loop.py:497]  [run]
+2026-01-26 17:11:04,057 [INFO]: [Visualization Node] 节点使用线程池 / Node use thread pool [event_loop.py:508]  [run]
+2026-01-26 17:11:09,817 [INFO]: [收到whisper描述: 我可以做的 [main.py:206]  [handle_text_whisper]
+2026-01-26 17:11:17,166 [INFO]: [收到whisper描述: 我之后这数据我现在 [main.py:206]  [handle_text_whisper]
+2026-01-26 17:11:21,734 [INFO]: [收到whisper描述: 但是...還是再解鎖門都發過了 [main.py:206]  [handle_text_whisper]
+2026-01-26 17:11:29,746 [INFO]: [收到whisper描述: 呃...這個...這個...還是... [main.py:206]  [handle_text_whisper]
+2026-01-26 17:11:37,829 [INFO]: [收到whisper描述: 不客氣 [main.py:206]  [handle_text_whisper]
+2026-01-26 17:11:47,478 [INFO]: [收到whisper描述: 嗯嗯嗯嗯 [main.py:206]  [handle_text_whisper]
+2026-01-26 17:11:55,666 [INFO]: [收到whisper描述: 好,好,好,好,好。好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好,好, [main.py:206]  [handle_text_whisper]
+2026-01-26 17:12:02,140 [INFO]: [收到whisper描述: 麻煩 [main.py:206]  [handle_text_whisper]
+2026-01-26 17:12:09,059 [INFO]: [收到whisper描述: 之前他這個大門 [main.py:206]  [handle_text_whisper]
+2026-01-26 17:12:11,297 [INFO]: [收到whisper描述: 所以说不认识的事会来拍照 [main.py:206]  [handle_text_whisper]
+2026-01-26 17:12:13,521 [INFO]: [收到whisper描述: 但是它倒是也没时间回话 [main.py:206]  [handle_text_whisper]
+2026-01-26 17:12:21,599 [INFO]: [收到whisper描述: 你還是 [main.py:206]  [handle_text_whisper]
+2026-01-26 17:12:29,660 [INFO]: [收到whisper描述: 请帮我装一个货币 [main.py:206]  [handle_text_whisper]
+2026-01-26 17:12:33,436 [INFO]: [收到whisper描述: 这是人类吗 [main.py:206]  [handle_text_whisper]
+2026-01-26 17:12:43,095 [INFO]: [收到whisper描述: 明镜需要您的支持 欢迎订阅 [main.py:206]  [handle_text_whisper]
+2026-01-26 17:12:45,738 [INFO]: [收到whisper描述: 快看快看那个那个那个是不是在查 [main.py:206]  [handle_text_whisper]
+2026-01-26 17:12:48,014 [INFO]: [收到whisper描述: 你才不行啊 [main.py:206]  [handle_text_whisper]
+2026-01-26 17:12:50,200 [INFO]: [收到whisper描述: 我还要不行但都跑在那里 [main.py:206]  [handle_text_whisper]
+2026-01-26 17:12:51,168 [INFO]: [Visualization Node] 收到停止事件 / Received stop event [event_loop.py:224]  [<lambda>]
+2026-01-26 17:12:51,169 [INFO]: [Visualization Node] 事件循环结束 / Event loop ended [event_loop.py:589]  [run]
+2026-01-26 17:12:51,171 [INFO]: [Rerun] 可视化线程已结束 [main.py:386]  [_rerun_update_thread]
+2026-01-26 17:12:51,171 [INFO]: Rerun可视化节点已关闭 [main.py:406]  [run]

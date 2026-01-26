@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+dora_qwen2_5_vl/__init__.py
+dora_qwen2_5_vl/chat_template.json
+dora_qwen2_5_vl/main.py
+dora_qwen2_5_vl.egg-info/PKG-INFO
+dora_qwen2_5_vl.egg-info/SOURCES.txt
+dora_qwen2_5_vl.egg-info/dependency_links.txt
+dora_qwen2_5_vl.egg-info/entry_points.txt
+dora_qwen2_5_vl.egg-info/requires.txt
+dora_qwen2_5_vl.egg-info/top_level.txt
+tests/test_dora_qwenvl.py

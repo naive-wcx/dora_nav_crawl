@@ -1,0 +1,2 @@
+[console_scripts]
+dora-qwen2-5-vl = dora_qwen2_5_vl.main:main

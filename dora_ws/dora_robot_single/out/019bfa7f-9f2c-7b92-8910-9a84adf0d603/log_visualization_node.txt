@@ -1,0 +1,36 @@
+2026-01-26 21:30:27,756 [INFO]: Rerun可视化节点启动 [main.py:390]  [run]
+[2026-01-26T13:30:27Z INFO  re_grpc_server] Listening for gRPC connections on 0.0.0.0:9876. Connect by running `rerun --connect rerun+http://127.0.0.1:9876/proxy`
+[2026-01-26T13:30:28Z INFO  winit::platform_impl::linux::x11::window] Guessed window scale factor: 1
+2026-01-26 21:30:28,095 [INFO]: [Rerun] 可视化线程已启动 [main.py:300]  [_rerun_update_thread]
+[2026-01-26T13:30:28Z WARN  wgpu_hal::vulkan::instance] Unable to find extension: VK_EXT_physical_device_drm
+[2026-01-26T13:30:28Z WARN  wgpu_hal::gles::adapter] Detected skylake derivative running on mesa i915. Clears to srgb textures will use manual shader clears.
+[2026-01-26T13:30:28Z WARN  wgpu_hal::gles::adapter] Detected skylake derivative running on mesa i915. Clears to srgb textures will use manual shader clears.
+[2026-01-26T13:30:28Z INFO  egui_wgpu] There were 4 available wgpu adapters: {backend: Vulkan, device_type: IntegratedGpu, name: "Intel(R) Graphics (ARL)", driver: "Intel open-source Mesa driver", driver_info: "Mesa 25.0.7-0ubuntu0.24.04.2", vendor: Intel (0x8086), device: 0x7D67}, {backend: Vulkan, device_type: DiscreteGpu, name: "NVIDIA GeForce RTX 5090 Laptop GPU", driver: "NVIDIA", driver_info: "570.195.03", vendor: NVIDIA (0x10DE), device: 0x2C58}, {backend: Vulkan, device_type: Cpu, name: "llvmpipe (LLVM 20.1.2, 256 bits)", driver: "llvmpipe", driver_info: "Mesa 25.0.7-0ubuntu0.24.04.2 (LLVM 20.1.2)", vendor: Mesa (0x10005)}, {backend: Gl, device_type: IntegratedGpu, name: "Mesa Intel(R) Graphics (ARL)", driver_info: "4.6 (Core Profile) Mesa 25.0.7-0ubuntu0.24.04.2", vendor: Intel (0x8086)}
+2026-01-26 21:30:38,314 [INFO]: [Visualization Node] 节点初始化成功 / Node initialized successfully [event_loop.py:497]  [run]
+2026-01-26 21:30:38,315 [INFO]: [Visualization Node] 节点使用线程池 / Node use thread pool [event_loop.py:508]  [run]
+2026-01-26 21:30:47,552 [INFO]: [收到whisper描述: 我抓一瓶盒 [main.py:206]  [handle_text_whisper]
+2026-01-26 21:30:49,586 [INFO]: [收到whisper描述: 帮我抓一下 [main.py:206]  [handle_text_whisper]
+2026-01-26 21:30:51,037 [ERROR]: [错误] 解析视觉数据失败: 'str' object cannot be interpreted as an integer [main.py:193]  [handle_vision_result]
+2026-01-26 21:30:51,057 [INFO]: [边界框] 接收到边界框数据: shape=(4,), encoding=xyxy, image_id=image_depth [main.py:147]  [handle_boxes2d]
+[边界框] 接收到边界框数据: [384 216 442 357]
+2026-01-26 21:30:51,057 [INFO]: [边界框] 处理后的边界框: [[384 216 442 357]] [main.py:160]  [handle_boxes2d]
+[边界框] 处理后的边界框: [[384 216 442 357]]
+2026-01-26 21:30:52,715 [ERROR]: [错误] 解析视觉数据失败: 'str' object cannot be interpreted as an integer [main.py:193]  [handle_vision_result]
+2026-01-26 21:30:52,716 [INFO]: [边界框] 接收到边界框数据: shape=(4,), encoding=xyxy, image_id=image_depth [main.py:147]  [handle_boxes2d]
+[边界框] 接收到边界框数据: [384 216 443 357]
+2026-01-26 21:30:52,717 [INFO]: [边界框] 处理后的边界框: [[384 216 443 357]] [main.py:160]  [handle_boxes2d]
+[边界框] 处理后的边界框: [[384 216 443 357]]
+2026-01-26 21:30:54,247 [INFO]: [收到whisper描述: 这边的瓶颜色 [main.py:206]  [handle_text_whisper]
+2026-01-26 21:31:02,405 [INFO]: [收到whisper描述: 这都换你了 [main.py:206]  [handle_text_whisper]
+2026-01-26 21:31:10,789 [INFO]: [收到whisper描述: 一手那我正在我正在我正在 [main.py:206]  [handle_text_whisper]
+2026-01-26 21:31:13,802 [INFO]: [收到whisper描述: 是是是是是是是 [main.py:206]  [handle_text_whisper]
+2026-01-26 21:31:18,201 [INFO]: [收到whisper描述: 那这上面必须往这上面是什么 [main.py:206]  [handle_text_whisper]
+2026-01-26 21:31:21,980 [INFO]: [收到whisper描述: 他他要是真的往 [main.py:206]  [handle_text_whisper]
+2026-01-26 21:31:24,123 [INFO]: [收到whisper描述: 发生这个事情 [main.py:206]  [handle_text_whisper]
+2026-01-26 21:31:32,342 [INFO]: [收到whisper描述: 好好的 [main.py:206]  [handle_text_whisper]
+2026-01-26 21:31:40,487 [INFO]: [收到whisper描述: 字幕志愿者 杨茜茜 [main.py:206]  [handle_text_whisper]
+2026-01-26 21:31:50,745 [INFO]: [收到whisper描述: 嗯嗯嗯啊啊啊啊 [main.py:206]  [handle_text_whisper]
+2026-01-26 21:31:56,697 [INFO]: [Visualization Node] 收到停止事件 / Received stop event [event_loop.py:224]  [<lambda>]
+2026-01-26 21:31:56,703 [INFO]: [Visualization Node] 事件循环结束 / Event loop ended [event_loop.py:589]  [run]
+2026-01-26 21:31:56,707 [INFO]: [Rerun] 可视化线程已结束 [main.py:386]  [_rerun_update_thread]
+2026-01-26 21:31:56,708 [INFO]: Rerun可视化节点已关闭 [main.py:406]  [run]

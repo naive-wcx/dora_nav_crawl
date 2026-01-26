@@ -1,0 +1,16 @@
+words:  ['ok', '幫我抓一瓶']
+sending: OK 幫我抓一瓶
+words:  ['可乐帮我扎一瓶可乐']
+words:  ['好']
+words:  ['有关什么天的']
+Success
+已经退出！！！！！！！！！！
+words:  ['不是卡路卡路']
+words:  ['你没发现', '你没发现']
+words:  ['他这个上方是']
+words:  ['初始为这个鞋的时候']
+words:  ['上方吗对是他好像是这个这个电子有哪点啊他是网网']
+words:  ['可能可能不应该捡']
+words:  ['e-x-a-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-e-v-']
+words:  ['不是唐那个位置就是']
+words:  ['在什么位置']

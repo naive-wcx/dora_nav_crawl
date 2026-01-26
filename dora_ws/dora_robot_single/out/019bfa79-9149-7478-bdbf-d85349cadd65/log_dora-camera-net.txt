@@ -1,0 +1,14 @@
+[camera-net] Listening on 0.0.0.0:5002
+Traceback (most recent call last):
+  File "/home/dora/miniconda3/envs/dora/bin/dora-camera-net", line 7, in <module>
+    sys.exit(main())
+  File "/home/dora/chemdemo/dora_ws/dora_robot_single/python_nodes/dora-camera-net/dora_camera_net/main.py", line 77, in main
+    node = Node()
+RuntimeError: Could not initiate node from environment variable. For dynamic node, please add a node id in the initialization function.
+
+Caused by:
+   0: failed to init event stream
+   1: subscribe failed: Node state_machine exited before initializing dora. For more information, run `dora logs 019bfa79-9149-7478-bdbf-d85349cadd65 state_machine`.
+
+Location:
+    apis/rust/node/src/event_stream/mod.rs:139:17

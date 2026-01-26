@@ -1,0 +1,26 @@
+{
+    "depth": {
+        "width": 640,
+        "height": 480,
+        "focal": [
+            388,
+            388
+        ],
+        "resolution": [
+            322,
+            235
+        ]
+    },
+    "color": {
+        "width": 640,
+        "height": 480,
+        "focal": [
+            605,
+            605
+        ],
+        "resolution": [
+            324,
+            254
+        ]
+    }
+}

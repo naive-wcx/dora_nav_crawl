@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+dora_camera_net/__init__.py
+dora_camera_net/main.py
+dora_camera_net.egg-info/PKG-INFO
+dora_camera_net.egg-info/SOURCES.txt
+dora_camera_net.egg-info/dependency_links.txt
+dora_camera_net.egg-info/entry_points.txt
+dora_camera_net.egg-info/requires.txt
+dora_camera_net.egg-info/top_level.txt

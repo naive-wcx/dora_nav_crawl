@@ -1,0 +1,3 @@
+[camera-net] Listening on 0.0.0.0:5002
+[camera-net] Connected by ('192.168.1.150', 35764)
+[camera-net] Connection error: Connection closed

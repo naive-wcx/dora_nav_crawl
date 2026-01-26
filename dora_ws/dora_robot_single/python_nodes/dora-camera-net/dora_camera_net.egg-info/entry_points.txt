@@ -1,0 +1,2 @@
+[console_scripts]
+dora-camera-net = dora_camera_net.main:main

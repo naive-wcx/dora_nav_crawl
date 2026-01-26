@@ -1,0 +1,1703 @@
+[camera-net] Listening on 0.0.0.0:5002
+[camera-net] Connected by ('192.168.1.150', 43468)
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[2m2026-01-26T10:44:35.837981Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m dropping event because event `tx` was already closed: `Stop`
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+
+[camera-net] Received depth frame
+
+
+
+[camera-net] Received image_depth frame
+
+
+

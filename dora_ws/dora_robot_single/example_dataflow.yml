@@ -1,0 +1,93 @@
+#===========================================================
+#  Dora-rs 多语言节点示例项目 - 数据流配置
+#  Dora-rs Multi-language Nodes Example Project - Dataflow Configuration
+#===========================================================
+#
+#  作者/Author: wyongcheng with Claude
+#  日期/Date: 2025-08-21
+#  版本/Version: 1.1.0
+#
+#  说明/Description:
+#  定义节点之间的数据流和python节点构建命令
+#  This file defines the dataflow between nodes and build commands
+#
+#===========================================================
+
+nodes:
+  # # 摄像头视觉识别节点 / Camera Vision Recognition Node
+  # - id: vision_node_new
+  #   build: pip install -e python_nodes/vision_node_new
+  #   path: python_nodes/vision_node_new/vision_node_new/main.py
+  #   inputs:
+  #     tick_5ms: dora/timer/millis/5
+  #     tick: dora/timer/secs/1
+  #   outputs:
+  #     - vision_result
+
+  - id: body
+    build: pip install -e python_nodes/body/body_interface
+    path: python_nodes/body/body_interface/body_interface/body_interface_main.py
+    inputs:
+      # tick_5ms: dora/timer/millis/5
+      tick: dora/timer/secs/1
+    outputs:
+  #     - vision_result
+
+  # - id: cpp_event_loop_example
+  #   path: bin/cpp_event_loop_example
+  #   inputs:
+  #     # vision_result: vision_node_new/vision_result
+  #     tick: dora/timer/secs/1
+
+  # - id: py_text_output
+  #   build: pip install -e python_nodes/event_loop_example
+  #   path: python_nodes/event_loop_example/event_loop_example/main.py
+  #   inputs:
+  #     # vision_result: vision_node_new/vision_result
+  #     tick: dora/timer/secs/1
+
+  # 以下是互相对话节点，可以根据需要阅读代码
+
+  # 文本输出节点
+  # - id: text_output_node
+  #   path: bin/cpp_event_loop_example
+  #   inputs:
+  #     vision_result: vision_node_new/vision_result
+  #     tick: dora/timer/secs/1
+
+  # - id: py_text_output
+  #   build: pip install -e python_nodes/event_loop_example
+  #   path: python_nodes/event_loop_example/event_loop_example/main.py
+  #   inputs:
+  #     vision_result: vision_node_new/vision_result
+  #     tick: dora/timer/secs/1
+  
+  # C语言节点 / C language nodes
+  # - id: c_talker
+  #   path: bin/c_talker
+  #   inputs:
+  #     tick: dora/timer/millis/500
+  #   outputs:
+  #     - message
+
+  # - id: c_listener
+  #   path: bin/c_listener
+  #   inputs:
+  #     c-message: c_talker/message
+  #     cpp-message: cpp_talker/message
+  #     py-message: py_talker/message
+
+  # C++语言节点 / C++ language nodes
+  # - id: cpp_talker
+  #   path: bin/cpp_talker
+  #   inputs:
+  #     tick: dora/timer/millis/700
+  #   outputs:
+  #     - message
+
+  # - id: cpp_listener
+  #   path: bin/cpp_listener
+  #   inputs:
+  #     c-message: c_talker/message
+  #     cpp-message: cpp_talker/message
+  #     py-message: py_talker/message

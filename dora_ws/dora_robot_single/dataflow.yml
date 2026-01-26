@@ -1,0 +1,115 @@
+nodes:
+  - id: dora-microphone
+    build: pip install -e python_nodes/dora-microphone -i https://pypi.tuna.tsinghua.edu.cn/simple
+    path: dora-microphone
+    inputs:
+      tick: dora/timer/millis/2000
+    outputs:
+      - audio
+
+  - id: dora-vad
+    build: pip install -e python_nodes/dora-vad
+    path: dora-vad
+    inputs:
+      audio: dora-microphone/audio
+    outputs:
+      - audio
+
+  - id: dora-distil-whisper
+    build: pip install -e python_nodes/dora-distil-whisper -i https://pypi.tuna.tsinghua.edu.cn/simple
+    path: dora-distil-whisper
+    inputs:
+      audio: dora-vad/audio
+      # input: dora-microphone/audio
+    outputs:
+      - text
+    env:
+      # TARGET_LANGUAGE: english
+      TARGET_LANGUAGE: Chinese
+
+  - id: dora-camera-net
+    build: pip install -e python_nodes/dora-camera-net
+    path: dora-camera-net
+    outputs:
+      - image_depth
+      - depth
+    env:
+      TCP_LISTEN_PORT: 5002
+      
+  - id: parse_bbox
+    path: python_nodes/parse_bbox.py
+    inputs:
+      text: dora-qwenvl/text
+      prompt: state_machine/prompt
+    outputs:
+      - bbox
+      - bbox_face
+    env:
+      IMAGE_RESIZE_RATIO: "1"
+
+  - id: box_coordinates
+    build: pip install -e python_nodes/dora-object-to-pose -i https://pypi.tuna.tsinghua.edu.cn/simple
+    path: dora-object-to-pose
+    inputs:
+      depth: dora-camera-net/depth
+      # masks: sam2/masks
+      boxes2d: parse_bbox/bbox
+    outputs:
+      - pose
+
+  - id: dora-rm65-arm
+    build: pip install -e python_nodes/dora-rm65
+    path: dora-rm65-arm
+    # path: python_nodes/dora-rm65/dora_rm65/arm.py
+    inputs:
+      pose_r: state_machine/action_r_arm
+      pose_l: state_machine/action_l_arm
+    outputs:
+      - response_r_arm
+      - response_l_arm
+
+  - id: dora-qwenvl
+    build: pip install -e python_nodes/dora-qwen2-5-vl -i https://pypi.tuna.tsinghua.edu.cn/simple
+    path: dora-qwen2-5-vl
+    inputs:
+      image_depth: dora-camera-net/image_depth
+      text_1: dora/timer/millis/600
+      text_2: state_machine/text_vlm
+    outputs:
+      - text
+    env:
+      # DEFAULT_QUESTION: grab human.
+      IMAGE_RESIZE_RATIO: "1"
+      MODEL_NAME_OR_PATH: /home/dora/dora_ws/dora_robot_single/models/qwen/Qwen2___5-VL-7B-Instruct
+      # ACTIVATION_WORDS: grab pick put give output take catch grabs picks gives output takes catches have Put
+      # SYSTEM_PROMPT: You're a robot.
+
+
+  - id: state_machine
+    path: python_nodes/pick-place-rm65.py
+    inputs:
+      text: dora-distil-whisper/text
+      response_r_arm: dora-rm65-arm/response_r_arm
+      response_l_arm: dora-rm65-arm/response_l_arm
+      pose: box_coordinates/pose
+    outputs:
+      - text_vlm
+      - action_r_arm
+      # - action_base
+      # - look
+      - action_l_arm
+      - prompt
+    env:
+      # ACTIVATION_WORDS: grab pick give output take catch grabs picks gives output takes catches have put
+      ACTIVATION_WORDS: 把 拿 放 给 抓  
+
+  # Rerun可视化节点 / Rerun Visualization Node
+  - id: visualization_node
+    build: pip install -e python_nodes/visualization_node -i https://pypi.tuna.tsinghua.edu.cn/simple
+    path: python_nodes/visualization_node/visualization_node/main.py
+    inputs:
+      camera_image: dora-camera-net/image_depth
+      vision_result: dora-qwenvl/text
+      text_whisper: dora-distil-whisper/text
+      camera_torso/boxes2d: parse_bbox/bbox
+      tick: dora/timer/millis/50

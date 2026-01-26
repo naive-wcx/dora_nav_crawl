@@ -1,0 +1,6 @@
+dora-rs
+pyarrow
+rerun-sdk
+opencv-python
+numpy
+pillow

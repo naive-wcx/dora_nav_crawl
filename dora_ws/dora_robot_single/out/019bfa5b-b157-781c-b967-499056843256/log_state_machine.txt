@@ -1,0 +1,9 @@
+words:  ['幫我抓一瓶可樂']
+sending: 幫我抓一瓶可樂
+words:  ['把我照一遍']
+sending: 把我照一遍
+words:  ['看这就是外景']
+Success
+已经退出！！！！！！！！！！
+words:  ['就是y减实的结果就是y减实的结果']
+words:  ['好']

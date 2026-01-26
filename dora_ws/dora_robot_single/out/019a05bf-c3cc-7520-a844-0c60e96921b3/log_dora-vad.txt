@@ -1,0 +1,143 @@
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+send audio
+[2m2025-10-21T08:02:57.805677Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-d8ae-79e9-836b-d28d3439d4ca) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:57.905789Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-d917-76d7-9313-bdf3892a8f3c) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:58.005971Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-d982-7622-b1d6-4e313d87c0d0) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:58.106173Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-d9ed-7970-9b1a-3b371e0fc482) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:58.206278Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-da57-7f6f-8493-99f27633e358) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:58.306387Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-dac2-7285-9aa1-a70e9c046702) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:58.406488Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-db2d-7deb-a710-abe4fa80f398) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:58.506574Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-db97-746a-b1d0-772587bc4e2c) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:58.606643Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-dc02-7bd3-b37d-fecb90b23a5f) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:58.706709Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-dc6d-7dce-adb9-3f8e7d277d2a) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:58.806767Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-dcd7-7b71-9054-13a34240740d) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:58.906859Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-dd42-7492-8a76-bc64594d6511) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:59.006963Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-ddad-7ac9-858f-402815993b12) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:59.107181Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-de17-7e34-aa3b-0f52319bfe5f) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:59.207296Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-de82-7276-9cae-2a0c7caf58ac) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:59.307368Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-deed-7637-b527-31122ab219f0) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:59.407446Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-df58-7984-b0fd-006d63a9e9fa) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:59.507518Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-dfc3-7476-b1b7-6e328badcac6) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:59.607587Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e02d-7e52-99b6-d06cbb698010) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:59.707743Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e098-7165-b62e-74b2063c7b50) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:59.807852Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e102-707c-ab35-9c4213631e66) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:02:59.908087Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e16d-7df7-9038-b18bcc785a60) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:00.008276Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e1d8-7368-8840-159b4e1faa62) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:00.108472Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e242-775b-98fc-705d1e5bdf18) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:00.208639Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e2ad-7560-99c6-65dc46f8a99e) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:00.308776Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e318-7638-a5e5-a8e9b0b55408) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:00.408940Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e382-789b-91fc-ba8229c01070) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:00.509104Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e3ed-7987-abb8-aae76ae742ff) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:00.609224Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e458-74a5-a903-82697f2eca2f) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:00.709296Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e4c2-72b6-88a2-073b20527adb) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:00.809380Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e52d-78e4-a472-f091adf7930c) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:00.909459Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e598-7b35-b73a-c8a57adcdc49) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:01.009618Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e602-7500-ac47-6544a962e0d3) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:01.109799Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e66d-7652-b21c-1d369f1d2242) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:01.209948Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e6d8-758f-a72a-ab26465c7fcc) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:01.310102Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e742-7f5c-95f4-40b4650a4729) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:01.410261Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e7ad-7650-8717-7bb531f7f18a) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:01.510335Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e818-749a-8967-b2995979d94a) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:01.610402Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e882-77ca-aed6-ff9f776b76d4) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:01.710560Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e8ed-7b23-acac-ff8049b96648) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:01.810746Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e958-758e-8638-4fc2105d5316) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:01.910915Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-e9c2-7ba8-bfd1-ff00391bad94) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:02.010987Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-ea2d-7af9-94b4-6797d8534a2b) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:02.111204Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-ea98-748c-89fb-ca87b5a9dc30) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:02.211269Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-eb02-77ee-b1b6-f07d94dbde6c) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:02.311453Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-eb6d-7ec2-8c8a-17ed144eadfe) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:02.411648Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-ebd8-7314-9b38-adb1e0fdf713) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:02.511859Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-ec42-7fdc-8dd9-86a71d5835f2) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:02.612067Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-ecad-7bc2-b36a-bf0658fd9eb9) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:02.712303Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-ed18-77a1-bc7a-9cc66bc0588c) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:02.812472Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-ed82-75fa-ad4d-8ae4060bc47b) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:02.912636Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-eded-7b67-83e1-b8c734ac8aaa) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:03.012777Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-ee58-7836-986e-721567646199) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:03.112936Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-eec2-7a3c-9496-8afb35b93e9a) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:03.213112Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-ef2d-7ebf-abe1-261739373b42) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:03.313221Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-ef98-7ec3-8fc5-d5a1251df8db) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:03.413291Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-f002-7556-9810-b430709059fb) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:03.513466Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-f06d-737a-a67e-ebdb3df7e316) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:03.613544Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-f0d7-7811-a53e-21f490f20a2f) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:03.713616Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-f142-7a97-9925-11b976a6bc6b) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:03.813757Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-f1ad-7b71-a5f9-f8fa6f056778) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:03.913915Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019a05ca-f218-795d-b30f-baf118cc2706) was still not dropped after 1s -> ignoring it
+[2m2025-10-21T08:03:05.915448Z[0m [33m WARN[0m [2mdora_node_api::node[0m[2m:[0m timeout while waiting for drop tokens; closing 1 shared memory regions that might not yet been mapped.

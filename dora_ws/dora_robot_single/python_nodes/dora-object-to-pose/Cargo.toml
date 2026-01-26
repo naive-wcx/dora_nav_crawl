@@ -1,0 +1,49 @@
+[package]
+name = "dora-object-to-pose"
+version = "0.3.11"
+edition = "2021"
+authors = ["Dora Contributors-s402"]
+description = "Dora Object to Pose Node"
+license = "Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dora-node-api = "=0.3.11"
+dora-operator-api = "=0.3.11"
+dora-operator-api-macros = "=0.3.11"
+dora-operator-api-types = "=0.3.11"
+dora-operator-api-c = "=0.3.11"
+dora-node-api-c = "=0.3.11"
+dora-core = "=0.3.11"
+dora-arrow-convert = "=0.3.11"
+dora-tracing = "=0.3.11"
+dora-metrics = "=0.3.11"
+dora-download = "=0.3.11"
+shared-memory-server = "=0.3.11"
+communication-layer-request-reply = "=0.3.11"
+dora-runtime = "=0.3.11"
+dora-daemon = "=0.3.11"
+dora-coordinator = "=0.3.11"
+dora-ros2-bridge = "=0.3.11"
+dora-ros2-bridge-msg-gen = "=0.3.11"
+dora-message = "=0.4.4"
+
+eyre = "0.6.8"
+pyo3 = { version = "0.23", features = [
+    "extension-module",
+    "abi3",
+    "eyre",
+    "generate-import-lib",
+], optional = true }
+
+
+[features]
+default = []
+python = ["pyo3"]
+
+
+[lib]
+name = "dora_object_to_pose"
+path = "src/lib.rs"
+crate-type = ["lib", "cdylib"]

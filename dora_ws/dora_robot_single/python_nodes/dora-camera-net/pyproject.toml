@@ -1,0 +1,31 @@
+[project]
+name = "dora-camera-net"
+version = "0.1.0"
+description = "Dora TCP camera receiver"
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "dora-rs >= 0.3.9",
+    "numpy > 2.0.0",
+    "pyarrow >= 5.0.0",
+]
+
+[dependency-groups]
+dev = ["pytest >=8.1.1", "ruff >=0.9.1"]
+
+[project.scripts]
+dora-camera-net = "dora_camera_net.main:main"
+
+[tool.ruff.lint]
+extend-select = [
+  "D",
+  "UP",
+  "PERF",
+  "RET",
+  "RSE",
+  "NPY",
+  "N",
+  "I",
+]

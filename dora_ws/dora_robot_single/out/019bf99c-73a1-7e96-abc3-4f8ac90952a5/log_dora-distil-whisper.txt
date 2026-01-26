@@ -1,0 +1,44 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+Device set to use cuda:0
+`return_token_timestamps` is deprecated for WhisperFeatureExtractor and will be removed in Transformers v5. Use `return_attention_mask` instead, as the number of frames can be inferred from it.
+You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+[INFO] 使用本地缓存模型: /home/dora/.cache/huggingface/hub/models--openai--whisper-large-v3-turbo/snapshots/41f01f3fe87f28c78e2fbf8b568835947dd65ed9
+[INFO] 他读之前的话他是能够看成了一个
+[INFO] 好久了好久了好久了
+[INFO] 双双双双
+[INFO] 抬抬抬抬
+[INFO] 我去找我
+[INFO] 主板上约随机 三点三点三点
+[INFO] 未可怕
+[INFO] 这个吧这个
+[INFO] 对不对对不对
+[INFO] 接口这样变形吗
+[INFO] 就我找一下他
+[INFO] 微软现在在那个 呃
+[INFO] 你问他要的,你再看吧。那是他那钱?嗯,什么事在这里,然后合作就行。
+[INFO] 你说这个东西要换
+[INFO] 你们这个天好像
+[INFO] 好像睡不了了
+[INFO] 他做努力大一块钱
+[INFO] 二三人五一千三成 昨天刚换点
+[INFO] 换了我自己换了
+[INFO] 就是坐责留费到20块钱
+[INFO] 因为这个针变形叛得烂
+[INFO] 我可以看到你
+[INFO] USB,USB,SANYA,SANYA,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW,NOW
+[INFO] USB30RUSB56
+[INFO] 这个配置的一个订阅那个COPPING他在那边给你留的啊他
+[INFO] 因為你看 既然我們
+[INFO] 这边能收到但是觉得说
+[INFO] 中文字幕志愿者 李宗盛
+[INFO] 不是 我 我们讲前段话
+[INFO] 他就说他把那套
+[INFO] 我还是能在这个文化里面看
+[INFO] 请不吝点赞 订阅 转发 打赏支持明镜与点点栏目的支持明镜与点点栏目的支持明镜与点点栏目的支持明镜与点点栏目的支持明镜与点点栏目的支持明镜与点点栏目的支持明镜与点点栏目的支持明镜与点点栏目的支持明镜与
+[INFO] 是屁股,那是屁股鬼
+[INFO] 这个训练比较对吧
+[INFO] 好多多多多
+[INFO] 要换坐鱼
+[INFO] 每次宝货这边六个网上的照子我都会换 赶紧麻烦
+[2m2026-01-26T09:25:12.724058Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019bf99e-fdd6-7d97-8cbe-66cbfc284195) was still not dropped after 1s -> ignoring it
