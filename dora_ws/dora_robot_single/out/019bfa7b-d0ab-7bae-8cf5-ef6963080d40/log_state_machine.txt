@@ -1,9 +1,0 @@
-words:  ['帮我抓一瓶']
-sending: 帮我抓一瓶
-words:  ['帮我抓一下']
-sending: 帮我抓一下
-Success
-已经退出！！！！！！！！！！
-words:  ['一瓶可樂']
-words:  ['至少姿势']
-words:  ['一定的,我只是想起来']

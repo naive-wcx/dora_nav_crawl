@@ -1,8 +1,0 @@
-words:  ['帮我抓一瓶']
-sending: 帮我抓一瓶
-words:  ['抓一瓶可恶']
-sending: 抓一瓶可恶
-words:  ['嗯嗯嗯嗯']
-Success
-已经退出！！！！！！！！！！
-words:  ['我先不然']

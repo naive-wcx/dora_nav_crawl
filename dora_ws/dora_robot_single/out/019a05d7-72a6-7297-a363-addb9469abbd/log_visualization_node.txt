@@ -1,8 +1,0 @@
-2025-10-21 16:16:37,551 [INFO]: Rerun可视化节点启动 [main.py:384]  [run]
-2025-10-21 16:16:37,556 [INFO]: [Rerun] 可视化线程已启动 [main.py:294]  [_rerun_update_thread]
-2025-10-21 16:16:40,527 [INFO]: [Visualization Node] 节点初始化成功 / Node initialized successfully [event_loop.py:497]  [run]
-2025-10-21 16:16:40,528 [INFO]: [Visualization Node] 节点使用线程池 / Node use thread pool [event_loop.py:508]  [run]
-2025-10-21 16:16:42,457 [INFO]: [Visualization Node] 所有输入已关闭 / All inputs closed [event_loop.py:230]  [<lambda>]
-2025-10-21 16:16:42,463 [INFO]: [Visualization Node] 事件循环结束 / Event loop ended [event_loop.py:589]  [run]
-2025-10-21 16:16:42,470 [INFO]: [Rerun] 可视化线程已结束 [main.py:380]  [_rerun_update_thread]
-2025-10-21 16:16:42,470 [INFO]: Rerun可视化节点已关闭 [main.py:400]  [run]

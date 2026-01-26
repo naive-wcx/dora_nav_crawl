@@ -1,9 +1,0 @@
-README.md
-setup.py
-cc_dora_event_loop/__init__.py
-cc_dora_event_loop/event_loop.py
-cc_dora_event_loop.egg-info/PKG-INFO
-cc_dora_event_loop.egg-info/SOURCES.txt
-cc_dora_event_loop.egg-info/dependency_links.txt
-cc_dora_event_loop.egg-info/requires.txt
-cc_dora_event_loop.egg-info/top_level.txt

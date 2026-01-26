@@ -1,7 +1,0 @@
-words:  ['幫我抓一群可樂']
-sending: 幫我抓一群可樂
-words:  ['帮我抓一个']
-sending: 帮我抓一个
-Success
-已经退出！！！！！！！！！！
-words:  ['很可乐主人啊']

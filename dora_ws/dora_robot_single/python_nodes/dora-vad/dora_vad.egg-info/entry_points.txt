@@ -1,2 +1,0 @@
-[console_scripts]
-dora-vad = dora_vad.main:main

@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/home/dora/miniconda3/envs/dora/bin/dora-camera-net", line 3, in <module>
-    from dora_camera_net.main import main
-ModuleNotFoundError: No module named 'dora_camera_net'

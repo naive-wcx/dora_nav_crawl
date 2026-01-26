@@ -1,8 +1,0 @@
-setup.py
-visualization_node/__init__.py
-visualization_node/main.py
-visualization_node.egg-info/PKG-INFO
-visualization_node.egg-info/SOURCES.txt
-visualization_node.egg-info/dependency_links.txt
-visualization_node.egg-info/requires.txt
-visualization_node.egg-info/top_level.txt

@@ -1,3 +1,0 @@
-[console_scripts]
-dora-rm65-arm = dora_rm65.arm:main
-dora-rm65-gemini335 = dora_rm65.gemini335:main

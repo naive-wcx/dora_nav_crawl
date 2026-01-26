@@ -1,11 +1,0 @@
-使用模型路径: /home/dora/dora_ws/dora_robot_single/models/qwen/Qwen2___5-VL-7B-Instruct
-1.0
-flash_attention导入失败: No module named 'flash_attn'
-使用标准方式加载模型: /home/dora/dora_ws/dora_robot_single/models/qwen/Qwen2___5-VL-7B-Instruct
-`torch_dtype` is deprecated! Use `dtype` instead!
-Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:02,  1.54it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:01,  1.72it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:01<00:01,  1.74it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:02<00:00,  1.78it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:02<00:00,  2.40it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:02<00:00,  2.04it/s]
-模型加载成功(使用标准方式)
-加载处理器: /home/dora/dora_ws/dora_robot_single/models/qwen/Qwen2___5-VL-7B-Instruct
-The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
-处理器加载成功
-[2m2026-01-26T13:22:39.410235Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(019bfa78-7a95-7b54-9df8-44c3448ab24c) was still not dropped after 1s -> ignoring it
