@@ -1,0 +1,96 @@
+nodes: 
+  - id: lidar 
+    custom:
+      source: build/livox/livox_dora_driver_node
+      inputs:
+        tick: dora/timer/millis/100
+      outputs:
+        - pointcloud
+
+  - id: hdl_localization
+    custom:
+      source: build/dora-hdl_localization/hdl_localization
+      inputs: 
+        pointcloud: lidar/pointcloud
+        # imu_msg: imu/imu_msg
+      outputs: 
+       - cur_pose
+      envs: 
+        use_imu: 0       #  1 using imu 
+
+  - id: pub_road 
+    custom:
+      source: build/map/pub_road/pubroad
+      inputs:
+        tick: dora/timer/millis/200
+      outputs:
+        - road_lane
+        
+  - id: road_lane_publisher_node 
+    custom:
+      source: build/map/road_line_publisher/road_lane_publisher_node
+      inputs:
+        road_lane: pub_road/road_lane
+        cur_pose: hdl_localization/cur_pose
+      outputs:
+        - cur_pose_all  
+            
+  - id: task_pub_node 
+    custom:
+      source: build/planning/mission_planning/task_pub/task_pub_node
+      inputs:
+        tick: dora/timer/millis/20
+      outputs:
+        - road_attri_msg
+                    
+  - id: planning  
+    custom:
+      source: build/planning/routing_planning/routing_planning_node
+      inputs:
+        road_lane: pub_road/road_lane   
+        cur_pose_all: road_lane_publisher_node/cur_pose_all
+        road_attri_msg: task_pub_node/road_attri_msg
+      outputs:
+        - raw_path  
+        - Request
+
+  - id: lon_control
+    custom:
+      source: build/control/vehicle_control/lon_controller/lon_controller_node
+      inputs:
+        Request: planning/Request
+      outputs:
+        - TrqBreCmd
+        
+            
+  - id: latcontrol
+    custom:
+      source: build/control/vehicle_control/lat_controller/lat_controller_node
+      inputs:
+        raw_path: planning/raw_path
+      outputs:
+        - SteeringCmd #100hz
+
+  - id: control
+    custom:	
+      source: build/control/vehicle_control/mick/adora_chassis_a2pro_dora_node
+      inputs:
+        SteeringCmd: latcontrol/SteeringCmd
+        TrqBreCmd: lon_control/TrqBreCmd
+      envs: 
+        COMMUNICATION_MODE: 1       #   0 is Serial    1 is UDP 
+        UDP_TARGET_IP: 192.168.1.30
+        UDP_LOCAL_PORT: 1231
+        UDP_TARGET_PORT: 1231
+        
+  - id: rerun 
+    custom:
+      source: build/rerun/to_rerun
+      inputs:
+        pointcloud: lidar/pointcloud
+        raw_path: planning/raw_path
+        cur_pose: hdl_localization/cur_pose
+        
+
+
+

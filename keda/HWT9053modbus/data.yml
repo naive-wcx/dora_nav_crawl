@@ -1,0 +1,15 @@
+nodes: 
+  - id: imu 
+    custom:
+      source: build/imu_driver_node
+      inputs:
+        tick: dora/timer/millis/50
+      outputs:
+        - imu_msg
+   
+
+
+
+
+
+

@@ -40,3 +40,8 @@ dora_ws/hand_eye_calibration-main/RobotToolPose.csv
 # OS/editor noise
 .DS_Store
 Thumbs.db
+
+# Embedded repos to ignore (handled outside this monorepo)
+/keda/dora-hdl_localization/3rdparty/hdl_ndt_omp/
+/keda/livox/3rdparty/Livox-SDK/
+/slam/src/hdl_ndt_omp/

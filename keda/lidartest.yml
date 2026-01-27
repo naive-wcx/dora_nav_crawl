@@ -1,0 +1,19 @@
+nodes: 
+  - id: lidar 
+    custom:
+      source: build/livox/livox_dora_driver_node
+      inputs:
+        tick: dora/timer/millis/100
+      outputs:
+        - pointcloud
+        
+  - id: rerun 
+    custom:
+      source: build/rerun/to_rerun
+      inputs:
+        pointcloud: lidar/pointcloud
+
+        
+
+
+

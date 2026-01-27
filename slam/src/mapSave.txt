@@ -1,0 +1,5 @@
+rosservice call /hdl_graph_slam/save_map "utm: false
+resolution: 0.01
+destination: '/home/k123/map1.pcd'"
+
+IsHdlRelocaliztionStart
