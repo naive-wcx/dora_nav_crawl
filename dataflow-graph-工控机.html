@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dataflow Graph</title>
+  <style>
+    body { margin: 0; padding: 24px; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans", "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .hint { color: #666; font-size: 12px; margin-bottom: 12px; }
+    pre.mermaid { margin: 0; }
+  </style>
+</head>
+<body>
+  <div class="hint">需要联网加载 Mermaid CDN；若离线使用，请把 mermaid.js 下载到本地并改成本地路径。</div>
+
+  <pre class="mermaid">
+        flowchart TB
+  subgraph slam_mapping["SLAM Mapping (ROS)"]
+    livox_ros["livox_ros_driver2"]
+    rosbag_record["rosbag record /livox/lidar (optional)"]
+    rosbag_play["rosbag play --clock &lt;bag&gt; (optional)"]
+    hdl_graph_slam["hdl_graph_slam (my_robot.launch)"]
+    map_pcd["map.pcd"]
+
+    livox_ros -->|"/livox/lidar"| rosbag_record
+    rosbag_record -->|"bag"| rosbag_play
+    livox_ros -->|"/livox/lidar"| hdl_graph_slam
+    rosbag_play -->|"/livox/lidar"| hdl_graph_slam
+    hdl_graph_slam -->|"save_map service"| map_pcd
+  end
+
+  subgraph path_recording["Path Recording (Dora load_path.yml)"]
+    lidar_rec["livox_dora_driver_node"]
+    hdl_loc_rec["dora-hdl_localization"]
+    trajectory["data/path/trajectory.txt"]
+
+    lidar_rec -->|"pointcloud"| hdl_loc_rec
+    map_pcd -->|"MAP_PCD"| hdl_loc_rec
+    hdl_loc_rec -->|"cur_pose (logged)"| trajectory
+  end
+
+  subgraph path_processing["Path Processing"]
+    show_py["show.py (visualize)"]
+    test_py["test.py (downsample)"]
+    waypoints["Waypoints.txt"]
+
+    trajectory --> show_py
+    trajectory --> test_py
+    test_py --> waypoints
+  end
+
+  subgraph nav_run["Navigation Run (Dora run.yml)"]
+    lidar_run["livox_dora_driver_node"]
+    hdl_loc_run["dora-hdl_localization"]
+    pub_road["pub_road (reads Waypoints.txt)"]
+    road_lane_pub["road_lane_publisher_node"]
+    task_pub["task_pub_node"]
+    planning["routing_planning_node"]
+    lon_control["lon_controller_node"]
+    lat_control["lat_controller_node"]
+    control["adora_chassis_a2pro_dora_node"]
+    rerun["to_rerun (visualization)"]
+
+    waypoints --> pub_road
+    pub_road -->|"road_lane"| road_lane_pub
+    lidar_run -->|"pointcloud"| hdl_loc_run
+    map_pcd -->|"MAP_PCD"| hdl_loc_run
+    hdl_loc_run -->|"cur_pose"| road_lane_pub
+    road_lane_pub -->|"cur_pose_all"| planning
+    task_pub -->|"road_attri_msg"| planning
+    pub_road -->|"road_lane"| planning
+    planning -->|"raw_path"| lat_control
+    planning -->|"Request"| lon_control
+    lat_control -->|"SteeringCmd"| control
+    lon_control -->|"TrqBreCmd"| control
+    lidar_run -->|"pointcloud"| rerun
+    hdl_loc_run -->|"cur_pose"| rerun
+    planning -->|"raw_path"| rerun
+  end
+
+  subgraph imu_optional["IMU (optional)"]
+    imu_driver["imu_driver_node (HWT9053modbus)"]
+    imu_driver -.->|"imu_msg"| hdl_loc_rec
+    imu_driver -.->|"imu_msg"| hdl_loc_run
+  end
+
+    
+  </pre>
+
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({ startOnLoad: true, securityLevel: "loose", theme: "base" });
+  </script>
+</body>
+</html>
