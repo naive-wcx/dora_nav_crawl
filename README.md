@@ -15,6 +15,36 @@
   - `小车导航操作.pdf`：导航操作文档
   - `dataflow-graph-工控机.html`：数据流可视化产物（供快速浏览）
 
+## 功能示意图
+
+以下图片来自 `../my_paper/figures/`，用于快速理解本仓库的核心能力：
+
+### 1. 系统总体架构（导航 + 抓取）
+
+![系统总体架构](docs/figures/system-architecture.png)
+
+- 左侧高性能主机负责语义理解、语音与状态机（对应 `dora_ws/` 中的抓取与交互链路）。
+- 右侧边缘工控机负责 SLAM、定位、规划和控制（对应 `keda/` 与 `slam/`）。
+- 两侧通过 dora-rs 数据流通讯，形成“感知-决策-执行”闭环。
+
+### 2. 导航点云与定位场景
+
+![导航点云与定位场景](docs/figures/slam-pointcloud.png)
+
+- 展示激光点云在真实环境中的建图/定位效果，对应 `slam/` 与 `keda/dora-hdl_localization/`。
+
+### 3. 视觉目标检测效果
+
+![视觉目标检测效果](docs/figures/vlm-detection.png)
+
+- 展示系统提示词驱动的目标检测结果，用于抓取前的目标识别与定位（对应 `dora_ws/dora_robot_single/` 视觉链路）。
+
+### 4. 机械臂抓取动作序列
+
+![机械臂抓取动作序列](docs/figures/grasp-sequence.png)
+
+- 展示从接近目标到夹取完成的关键帧，反映 `state_machine -> dora-rm65` 的执行流程。
+
 ## 导航逻辑（keda + slam）
 
 ### keda：Dora 数据流（主运行入口：`keda/run.yml`）
