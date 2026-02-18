@@ -17,11 +17,11 @@
 
 ## 功能示意图
 
-以下图片来自 `../my_paper/figures/`，用于快速理解本仓库的核心能力：
+以下图片用于快速理解本仓库的核心能力：
 
 ### 1. 系统总体架构（导航 + 抓取）
 
-![系统总体架构](docs/figures/system-architecture.png)
+<img src="docs/figures/system-architecture.png" alt="系统总体架构" width="50%" />
 
 - 左侧高性能主机负责语义理解、语音与状态机（对应 `dora_ws/` 中的抓取与交互链路）。
 - 右侧边缘工控机负责 SLAM、定位、规划和控制（对应 `keda/` 与 `slam/`）。
@@ -29,19 +29,19 @@
 
 ### 2. 导航点云与定位场景
 
-![导航点云与定位场景](docs/figures/slam-pointcloud.png)
+<img src="docs/figures/slam-pointcloud.png" alt="导航点云与定位场景" width="50%" />
 
 - 展示激光点云在真实环境中的建图/定位效果，对应 `slam/` 与 `keda/dora-hdl_localization/`。
 
 ### 3. 视觉目标检测效果
 
-![视觉目标检测效果](docs/figures/vlm-detection.png)
+<img src="docs/figures/vlm-detection.png" alt="视觉目标检测效果" width="50%" />
 
 - 展示系统提示词驱动的目标检测结果，用于抓取前的目标识别与定位（对应 `dora_ws/dora_robot_single/` 视觉链路）。
 
 ### 4. 机械臂抓取动作序列
 
-![机械臂抓取动作序列](docs/figures/grasp-sequence.png)
+<img src="docs/figures/grasp-sequence.png" alt="机械臂抓取动作序列" width="50%" />
 
 - 展示从接近目标到夹取完成的关键帧，反映 `state_machine -> dora-rm65` 的执行流程。
 
